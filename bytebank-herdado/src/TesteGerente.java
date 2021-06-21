@@ -13,9 +13,9 @@ public class TesteGerente {
 		System.out.println(g1.getCpf());
 		System.out.println(g1.getSalario());
 		
-		 g1.setSenha(2222);
-		 boolean auntenticou = g1.autentica(2222);
-		 System.out.println(auntenticou);
+		g1.setSenha(2222);
+		boolean auntenticou = g1.autentica(2222);
+		System.out.println(auntenticou);
 		 
 		 System.out.println(g1.getBonificacao());
 	}
